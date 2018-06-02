@@ -27,7 +27,7 @@ defmodule Catalyst.Mixfile do
 
   defp deps do
     [
-      {:hackney, "~> 1.8.4"},
+      {:hackney, "~> 1.12.1"},
       {:ex_doc, "~> 0.14", only: :dev},
       {:exdav, "~> 0.0.1", only: [:dev, :test], git: "git@github.com:slavone/exdav.git", ref: "9ad26817" }
     ]
